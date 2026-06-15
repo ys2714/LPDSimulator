@@ -16,3 +16,6 @@ adb shell am start -n com.zebra.lpdsimulator/.FullscreenActivity
 
 - depends on how the LPD dialog is implemented, we don't know whether it's pop-up will affect underlying app, we are not sure whether onPause and onResume will be called. If you don't test this rare case, it may cause bugs of your app.
 - put water into USB-C port will bring risk of broke the device, and also if you want to test it repeatedly, you have to wait the USB-C port dry out.
+
+https://github.com/user-attachments/assets/360f1f38-ba19-450b-b3fe-d1456b184ab0
+
