@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.LPDSimulator" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.OverlayDialog" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Make the window background transparent -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+        <!-- Ensure it behaves as a floating translucent window -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+
+        <!-- Overlay decorations -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item> <!-- Dims background apps by 60% -->
+        <item name="android:windowFullscreen">true</item> <!-- Fullscreen status bar -->
+    </style>
+</resources>
